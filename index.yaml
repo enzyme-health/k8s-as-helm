@@ -209,6 +209,28 @@ entries:
     version: 1.0.0
   job:
   - apiVersion: v2
+    appVersion: v1.0.1
+    created: "2022-06-13T22:19:11.682631653Z"
+    dependencies:
+    - name: lib-k8s-as-helm
+      repository: file://../lib-k8s-as-helm
+      version: 1.3.0
+    description: Helm Chart representing a single Job Kubernetes API object
+    digest: b628673c3e94e8e8980ef6c213c5b9525537e41884cf746a076f9e05ac149455
+    home: https://github.com/enzyme-health/k8s-as-helm
+    icon: https://enzyme-health.github.io/k8s-as-helm/icon.png
+    keywords:
+    - job
+    - api
+    - primitives
+    maintainers:
+    - name: enzyme-health
+      url: https://github.com/enzyme-health
+    name: job
+    urls:
+    - https://github.com/enzyme-health/k8s-as-helm/releases/download/job-1.0.1/job-1.0.1.tgz
+    version: 1.0.1
+  - apiVersion: v2
     appVersion: v1.0.0
     created: "2021-04-24T21:58:30.206439396Z"
     dependencies:
@@ -231,6 +253,26 @@ entries:
     - https://github.com/ameijer/k8s-as-helm/releases/download/job-1.0.0/job-1.0.0.tgz
     version: 1.0.0
   lib-k8s-as-helm:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2022-06-13T22:19:11.768275743Z"
+    description: Library chart backing portions of the k8s-as-helm project
+    digest: 643264c1fb7ae48ff77f6d1675a6d81de03f4b45bf0dd61c220305fe46d86c74
+    home: https://github.com/enzyme-health/k8s-as-helm
+    icon: https://enzyme-health.github.io/k8s-as-helm/icon.png
+    keywords:
+    - library
+    - k8s-as-helm
+    - api
+    - primitives
+    maintainers:
+    - name: enzyme-health
+      url: https://github.com/enzyme-health
+    name: lib-k8s-as-helm
+    type: library
+    urls:
+    - https://github.com/enzyme-health/k8s-as-helm/releases/download/lib-k8s-as-helm-1.3.0/lib-k8s-as-helm-1.3.0.tgz
+    version: 1.3.0
   - apiVersion: v2
     appVersion: 1.0.0
     created: "2021-08-19T11:46:04.058004923Z"
